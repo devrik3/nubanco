@@ -1,0 +1,343 @@
+*{
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	font-family: 'open Sans';
+	user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;
+}
+body{text-align: center;}
+* a{
+	color: #FFF;
+	text-decoration: none;
+}
+.container{max-width: 1280;padding: 0 2%;margin: 0 auto;}
+header{
+	background: #333;
+	width: 100%;
+	height: 8vh;]
+}
+header .logo-nubanco > h2{
+	padding: 20px 0;
+	color: #FFF;
+	text-align: center;
+	font-weight: 400;
+}
+header .logo-nubanco > h2:hover{
+	filter: brightness(80%);
+}
+header.nav-items p{
+	width: 30px;
+	height: 3px;
+	background: #000;
+}
+.nav-hamburguer h2{
+	font-size: 2.2em;
+	color: #FFF;
+	position: absolute;
+	top: .7rem;
+	left: 1rem;
+	cursor: pointer;
+}
+nav .nav-bar{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	background: #333;
+	width: 100%;
+	height: 18vw;
+	display: none;
+	z-index: 999;
+}
+nav .nav-bar ul li{
+	font-size: 1.2em;
+	text-align: center;
+	padding: 1% 0;
+	font-weight: 300;
+}
+nav .nav-bar ul li:hover{font-weight: 600;cursor: pointer;}
+/* Estilo Universais Para todos as tags contendo a classe 'all'. */
+.all h2{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 1.6em;
+	color: #333;
+	text-align: center;
+}
+.all p{
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-size: .9em;
+	width: 80%;
+	margin: 0 auto;
+	color: #333;
+	text-align: center;
+}
+/* //////////////////////////////////////////////////// */
+.quem-somos{margin: 3% 0;}
+.quem-somos p{padding: 2% 0;}
+.como-atuamos h2{margin: -2% 0 1% 0;}
+.como-atuamos p{padding: 2% 0;}
+.sobre{margin: 1% 0;}
+.sobre p{padding: 2% 0;}
+/* ///// Estilos dos sections de texto ///// */
+
+.donos h2{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 1.8em;
+	color: #333;
+	text-align: center;
+	margin: 1% 0;
+}
+.dono{max-width: 100%; flex-wrap: wrap;}
+.dono img{border-radius: 50%;width: 9%;max-width: 100%;margin: 0 auto;}
+.dono h2{font-family: 'Open Sans';font-weight: 500;font-size: 1.3em;color: #333;text-align: center;display: block;}
+.dono p{
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-size: .8em;
+	color: #333;
+	text-align: center;
+}
+.dono-1{margin-bottom: 2%;}
+.empresas h2{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 1.6em;
+	color: #333;
+	text-align: center;
+}
+.empresas p{
+	font-family: 'Open Sans';
+	font-weight: 200;
+	font-size: .8em;
+	color: #333;
+	text-align: center;
+}
+.empresas button{
+	text-align: center;
+	z-index: 994;
+	width: 150px;/* Usei a Unidade de PX pois não quero que ela redimensione.*/
+	height: 50px;
+	display: inline-block;
+	color: #333;
+	border: 2px solid #6FB54B;
+	background: none;
+	margin: 2.5%;}
+.empresas button:hover{
+	background: #578D3B;
+	transition: .5s ease;
+	cursor: pointer;
+	color: #FFF;
+	border: 2px solid #578D3B;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.24);
+}
+
+footer{margin: 0 auto; max-width: 100%;}
+footer .container-footer-principal{
+	z-index: 887;
+	position: absolute;
+	bottom: -110%;
+	background: #6FB54B;
+	width: 100%;
+	height: 11vw;
+}
+footer .container-footer-principal h2{
+	font-family: 'Open sans';
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #333;
+}
+footer .container-footer-principal .enderecos h2{text-align: left;margin: 1.5%  0 0 2.5%;}
+footer .container-footer-principal .enderecos p{
+	margin-left: 2.5%;
+	font-family: 'Open sans';
+	font-weight: 200;
+	font-size: 1em;
+	color: #333;
+	text-align: left;}
+footer .container-footer-principal .web-enderecos h2{text-align: center;margin: -6.5% 0 0 0;}
+footer .container-footer-principal .web-enderecos p{
+	text-align: center;
+	font-family: 'Open sans';
+	font-weight: 200;
+	font-size: 1em;
+	color: #333;
+	margin: 0 auto;
+	display: block;
+}
+footer .container-footer-principal .newsletter h2{font-size: 1.5em;text-align: right;margin-right: 5%;margin-top: -6%;}
+footer .container-footer-principal .newsletter input{
+	position: absolute;bottom: 3rem;right: 3.5%;
+	width: 16.5%;
+	height: 40px;
+	padding-left: 5px;
+	background: rgba(0,0,0, .10);
+	border: 2px solid #588C43;
+	color: #FFF;
+	font-family: 'Open sans';
+	font-weight: 100;
+}footer .container-footer-principal .newsletter input:focus{
+	background: rgba(0,0,0, .10);
+	border: 2px solid #588C43;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	outline: 0;
+}
+footer .container-footer-principal .newsletter button{
+	z-index: 994;
+	width: 16.5%;
+	height: 30px;
+	position: absolute;
+	display: block;
+	color: #FFF;
+	border: 2px solid #578D3B;
+	background: none;
+	position: absolute;
+	right: 3.8%;
+	bottom: .6rem;
+}
+footer .container-footer-principal .newsletter button:hover{
+	background: #578D3B;
+	transition: .5s ease;
+	cursor: pointer;
+	border: 2px solid #578D3B;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.24);
+}
+footer .footer-secundario{
+	position: absolute;bottom: -114%;
+	background: #588C43;
+	width: 100%;
+	height: 3vw;
+	z-index: 994;
+}footer .footer-secundario p{
+	font-size: .8em;
+	font-family: 'Open sans';
+	text-align: center;
+	color: #FFF;
+	font-weight: 300;
+	margin: .7% 0;
+	display: block;
+}
+@media screen and (max-width: 1200px){
+	nav .nav-bar{
+		height: 28vw;
+		padding: 1.5% 0;
+	}
+		header .logo-nubanco > h2{
+		padding: 16px 0;
+	}
+	.dono img{border-radius: 50%;width: 15%;max-width: 100%;margin: 0 auto;}
+	footer{margin: 0 auto; max-width: 100%;}
+	footer .container-footer-principal{
+		z-index: 887;
+		position: absolute;
+		bottom: -110%;
+		background: #6FB54B;
+		width: 100%;
+		height: 70vw;
+	}
+	footer .container-footer-principal h2{
+		font-family: 'Open sans';
+		font-size: 1.5em;
+		font-weight: 400;
+		color: #333;
+	}
+	footer .container-footer-principal .enderecos h2{
+		text-align: center;
+		margin-top: 5%;
+		display: block;
+	}
+	footer .container-footer-principal .enderecos p{
+		text-align: center;
+		font-family: 'Open sans';
+		font-weight: 200;
+		font-size: 1em;
+		color: #333;
+		display: block;
+	}
+	footer .container-footer-principal .web-enderecos h2{
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+	}
+	footer .container-footer-principal .web-enderecos p{
+		text-align: center;
+		font-family: 'Open sans';
+		font-weight: 200;
+		font-size: 1em;
+		color: #333;
+		display: block;
+	}
+	footer .container-footer-principal .newsletter h2{
+		margin: 3.5% 0 0 0;
+		font-size: 1.7em;
+		text-align: center;
+	}
+	footer .container-footer-principal .newsletter input{
+		width: 33%;
+		height: 40px;
+		padding-left: 5px;
+		background: rgba(0,0,0, .10);
+		border: 2px solid #588C43;
+		color: #FFF;
+		font-family: 'Open sans';
+		font-weight: 200;
+		right: 0;
+		left: 0;
+		top: 63%;
+		margin: 0 auto;
+	}footer .container-footer-principal .newsletter input:focus{
+		background: rgba(0,0,0, .10);
+		border: 2px solid #588C43;
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+		outline: 0;
+	}
+	footer .container-footer-principal .newsletter button{
+		z-index: 994;
+		width: 34%;
+		height: 30px;
+		position: absolute;
+		display: block;
+		margin: 0 auto;
+		color: #FFF;
+		border: 2px solid #578D3B;
+		background: none;
+		top: 77%;
+		left: 0;right: 0;
+		}
+	footer .container-footer-principal .newsletter button:hover{
+		background: #578D3B;
+		transition: .5s ease;
+		cursor: pointer;
+		border: 2px solid #578D3B;
+		box-shadow: 2px 2px 4px rgba(0,0,0,.24);
+	}
+	footer .footer-secundario{
+		position: absolute;bottom: -110%;
+		background: #588C43;
+		width: 100%;
+		height: 7vw;
+		z-index: 994;
+	}footer .footer-secundario p{
+		font-size: .8em;
+		font-family: 'Open sans';
+		text-align: center;
+		color: #FFF;
+		font-weight: 300;
+		margin: 2% 0;
+		display: block;
+	}
+}
+.active{animation: NavANIM .5s ease;}
+.notactive{animation: NavN_ANIM .3s ease;}
+@keyframes NavANIM{
+	0%{left: -2%;}
+	100%{left: 0;}
+}
+@keyframes NavN_ANIM{
+	0%{left: -2%;}
+	100%{left: 0;}
+}
+body::-webkit-scrollbar{
+	width: 0px;
+}

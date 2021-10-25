@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>NuBanco | Cartão</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style-cartao.css">
+	<!-- === Importando Fontes === -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="font/all.css">
+	<!-- ========================= -->
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="logo-nubanco">
+			<h2><a href="index.html">LogoMarca</a></h2>
+		</div>
+	</div>
+	<div class="nav-hamburguer">
+		<h2 id="nav-hamb"><i class="fas fa-bars"></i></h2>
+		<h2 id="nav-hamb2" style="display: none;"><i class="fas fa-bars"></i></h2>
+	</div>
+	
+	<nav>
+		<div class="nav-bar" id="nav">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="sobre.html">Sobre</a>
+				</li>
+				<li>
+					<a href="ajuda.html">Ajuda</a>
+				</li>
+				<li>
+					<a href="quero-cartao.html">Quero Cartão</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
+<section>
+	
+	<div class="formulario">
+
+		<form method="POST" action="" id="formulario">
+			<h2>Crie o seu Cartão</h2>
+			<input type="text" id="nome_sobrenome" placeholder="Nome Sobrenome" maxlength="45" size="45" class="">
+			<input type="email" id="email" placeholder="user@service.com" maxlength="45" size="45" class="">
+			<input type="password" id="password" placeholder="Password" maxlength="66" size="66">
+			<input type="password" id="confirm_password" placeholder="Confirm Password" maxlength="66" size="66">
+<!-- 			<select>
+				<option checked>Gênero</option>
+				<option value="F">Feminino</option>
+				<option value="M">Masculino</option>
+			</select> -->
+			<input type="date" id="date">
+			<!-- <input type="checkbox" id="termos"> Aceite os Termos. -->
+			<button id="btn_send" type="submit">Continuar</button>
+		</form>
+
+		<div class="r_server">
+			<p class="accept" id="acepted">Sua conta foi cadrastada com sucesso.</p>
+			<p class="error" id="error"></p>
+		</div>
+	</div>
+</section>
+<div class="conteudo">
+	<h2 class="title">NuBanco</h2>
+	<p class="content">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam scelerisque leo neque. Nulla posuere velit turpis, id efficitur mauris bibendum eget. Praesent nisi mauris, finibus vitae posuere eget, ultrices in risus. Aenean sed tristique tortor. Morbi eleifend efficitur nisl a imperdiet. In quis magna ipsum. Vestibulum consequat cursus vehicula.</p>
+
+	<button>Apoie!</button>
+</div>
+<div class="bg">
+	<img src="images/bg-christimans.jpg" class="bg">
+</div>
+<footer class="footer-principal">
+	<div class="container-footer-principal">
+		<div class="enderecos">
+			<h2>Endereços Fisicos</h2>
+			<p><i class="fas fa-map-marker-alt"></i> Rua ElonMusk, N 200</p>
+			<p><i class="fas fa-map-marker-alt"></i> Rua JeffBezos, N 404</p>
+		</div>
+		<div class="web-enderecos">
+			<h2>Endereços On-Line</h2>
+			<p><i class="far fa-envelope"></i>contato@núbanco.bank</p>
+			<p><i class="fas fa-phone-alt"></i> (77)99102-4219</p>
+		</div>
+		<div class="newsletter">
+			<h2>Receba Noticias!</h2>
+			<form method="POST">
+				<input type="email" id="email" required>
+				<button>Quero Receber!</button>
+			</form>
+		</div>
+	</div>
+</footer>
+<footer>
+	<div class="footer-secundario">
+		<p>Todos os Direitos Reservados. &copy;</p>
+	</div>
+</footer>
+<!-- === Importando Scripts Java Script === -->
+<script src="js/nav-bar.js"></script>
+<script src="js/form.js"></script>
+<!-- ====================================== -->
+</body>
+</html>

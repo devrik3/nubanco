@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	font-family: 'open Sans';
+	user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;
+}
+body{background: rgb(73,61,82, .25); text-align: center;}
+* a{
+	color: #FFF;
+	text-decoration: none;
+}
+.container{max-width: 1280;padding: 0 2%;margin: 0 auto;}
+header{
+	background: #333;
+	width: 100%;
+	height: 8vh;]
+}
+header .logo-nubanco > h2{
+	padding: 20px 0;
+	color: #FFF;
+	text-align: center;
+	font-weight: 400;
+}
+header .logo-nubanco > h2:hover{
+	filter: brightness(80%);
+}
+header.nav-items p{
+	width: 30px;
+	height: 3px;
+	background: #000;
+}
+.nav-hamburguer h2{
+	font-size: 2.2em;
+	color: #FFF;
+	position: absolute;
+	top: .7rem;
+	left: 1rem;
+	cursor: pointer;
+}
+nav .nav-bar{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	background: #333;
+	width: 100%;
+	height: 18vw;
+	display: none;
+	z-index: 999;
+}
+nav .nav-bar ul li{
+	font-size: 1.2em;
+	text-align: center;
+	padding: 1% 0;
+	font-weight: 300;
+}.ajuda-h2{
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 1.7em;
+	color: #333;
+	text-align: center;
+	margin: 2% 0 4% 0;
+}
+nav .nav-bar ul li:hover{font-weight: 600;cursor: pointer;}
+input, textarea, button{display: block; margin: 0 auto;}
+input, textarea{
+	width: 330px; 
+	height: 40px; 
+	font-family: 'Open sans';
+	background: rgb(51,51,51,.21); 
+	border: 1.5px solid #333;
+	padding: 0 0 0 7px; 
+	margin-top: 1%;
+}
+textarea{width: 330px; height: 200px;font-family: arial; border: 1.5px solid #333; resize: none; margin-top: 1%; padding: 7px 0 0 7px;}
+textarea::-webkit-scrollbar{width: 0px;}
+input:focus, textarea:focus{outline: none;}
+button{width: 339px; height: 40px; font-family: 'Open sans'; font-weight: 200; border: 1.5px solid #333; margin-top: 1%; margin-bottom: 15px; background: #333; color: #FFF; cursor: pointer;}
+/* ========================== */
+.r_server .accept{
+	background: #07C73D;
+	width: 338.5px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	font-size: .9em;
+	font-weight: 500;
+	margin: 0 auto;
+	padding-top: 10px;
+	animation: acepted .3s ease;
+	display: none;
+}
+
+@media screen and (max-width: 1200px){
+	nav .nav-bar{
+		height: 28vw;
+		padding: 1.5% 0;
+	}
+		header .logo-nubanco > h2{
+		padding: 16px 0 0 ;
+	}
+}
+.r_server .error{
+	background: rgb(255,0,40, .50);
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	font-size: .9em;
+	font-weight: 500;
+	position: absolute;
+	right: 10rem;
+	bottom: 19rem;
+	padding-top: 10px;
+	animation: acepted .3s ease;
+	display: none;
+}
+.active{animation: NavANIM .5s ease;}
+.notactive{animation: NavN_ANIM .3s ease;}
+@keyframes NavANIM{
+	0%{left: -2%;}
+	100%{left: 0;}
+}
+@keyframes NavN_ANIM{
+	0%{left: -2%;}
+	100%{left: 0;}
+}
+@keyframes acepted{
+	to{transform: translateY(0);}
+	from{transform: translateY(-15px);}
+}
+body::-webkit-scrollbar{width: 0px;}

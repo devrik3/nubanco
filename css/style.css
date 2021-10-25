@@ -1,0 +1,587 @@
+*{
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	font-family: 'open Sans';
+	user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;
+}
+* a{
+	color: #FFF;
+	text-decoration: none;
+}
+.container{max-width: 1280;padding: 0 2%;margin: 0 auto;}
+header{
+	background: #333;
+	width: 100%;
+	height: 8vh;
+	z-index: 999;
+	position: absolute;
+}
+header .logo-nubanco > h2{
+	padding: 20px 0;
+	color: #FFF;
+	text-align: center;
+	font-weight: 400;
+}
+header .logo-nubanco > h2:hover{
+	filter: brightness(80%);
+}
+/*header.nav-items p{
+	width: 30px;
+	height: 3px;
+	background: #000;
+}*/
+.nav-hamburguer h2{
+	font-size: 2.2em;
+	color: #FFF;
+	position: absolute;
+	top: .7rem;
+	left: 1rem;
+	cursor: pointer;
+}
+nav .nav-bar{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	background: #333;
+	width: 100%;
+	height: 18vw;
+	display: none;
+	z-index: 999;
+}
+nav .nav-bar ul li{
+	font-size: 1.2em;
+	text-align: center;
+	padding: 1% 0;
+	font-weight: 300;
+	display: block;
+}
+nav .nav-bar ul li:hover{font-weight: 600;cursor: pointer;}
+.banner .container-cda{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.banner .container-cda .banner-cda h2,p{
+	z-index: 4;
+	text-align: center;
+	color: #000;
+	display: flex;
+	align-items: center;
+}
+.banner .container-cda .banner-cda h2{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'open Sans';
+	font-weight: 800;
+	font-size: 2em;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 15%;
+	color: #FFF;
+	z-index: 996;
+}
+.banner .container-cda .banner-cda p{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 50%;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	z-index: 470;
+	display: block;
+	color: #FFF;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}.banner .container-cda .banner-cda .mobile{display: none;}
+/*section .container-cda .banner-cda .bg{
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+.banner .banner-cda{
+	width: 100%;
+	margin: 0 auto;
+}
+.banner .container-cda .banner-cda button{
+	text-align: center;
+	z-index: 994;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	color: #FFF;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #6FB54B;
+	background: none;
+	margin: 0 auto;
+}
+.banner .container-cda img{
+	width: 100%;
+	top: 0%;
+	position: absolute;
+	z-index: 2;
+	filter: brightness(75%);
+}
+.banner .container-cda .banner-cda button:hover{
+	background: #578D3B;
+	transition: .5s ease;
+	cursor: pointer;
+	border: 2px solid #578D3B;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.24);
+}
+.servicos-section{
+	margin: 0 auto;
+	text-align: center; 
+	position: absolute;
+	z-index: 778;
+	max-width: 100%;
+	top: 84%;
+}
+.servicos-section .servicos{
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 2em;
+	width: 100%;
+}
+
+/* Consultoria */
+.servicos-section .container-servicos .consultoria i{
+	margin-top: 5%;
+	font-size: 5em;
+	color: #578D3B;
+}
+.servicos-section .container-servicos .consultoria h2{
+	font-size: 2em;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #333;
+}
+.servicos-section .container-servicos .consultoria p{
+	width: 50%;
+	font-size: 1em;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	color: #333;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+/*///////////////*/
+
+/*/// suporte ///*/
+.servicos-section .container-servicos .suporte i{
+	margin-top: 8%;
+	font-size: 5em;
+	color: #578D3B;
+}
+.servicos-section .container-servicos .suporte h2{
+	font-size: 2em;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #333;
+}
+.servicos-section .container-servicos .suporte p{
+	width: 50%;
+	font-size: 1em;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	color: #333;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+/*///////////////*/
+
+/* Noticias */
+.servicos-section .container-servicos .noticias i{
+	margin-top: 7%;
+	font-size: 5em;
+	color: #578D3B;
+}
+.servicos-section .container-servicos .noticias h2{
+	font-size: 2em;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #333;
+}
+.servicos-section .container-servicos .noticias p{
+	width: 50%;
+	font-size: 1em;
+	font-family: 'Open Sans';
+	font-weight: 200;
+	color: #333;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+/*///////////////*/
+footer{margin: 0 auto; max-width: 100%;}
+footer .container-footer-principal{
+	z-index: 887;
+	position: absolute;
+	bottom: -110%;
+	background: #6FB54B;
+	width: 100%;
+	height: 11vw;
+}
+footer .container-footer-principal h2{
+	font-family: 'Open sans';
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #333;
+}
+footer .container-footer-principal .enderecos h2{text-align: left;margin: 1.5%  0 0 2.5%;}
+footer .container-footer-principal .enderecos p{
+	margin-left: 2.5%;
+	font-family: 'Open sans';
+	font-weight: 200;
+	font-size: 1em;
+	color: #333;
+}
+footer .container-footer-principal .web-enderecos h2{text-align: center;margin: -6.5% 0 0 0;}
+footer .container-footer-principal .web-enderecos p{
+	text-align: center;
+	font-family: 'Open sans';
+	font-weight: 200;
+	font-size: 1em;
+	color: #333;
+	margin: 0 auto;
+	display: block;
+}
+footer .container-footer-principal .newsletter h2{font-size: 1.5em;text-align: right;margin-right: 5%;margin-top: -6%;}
+footer .container-footer-principal .newsletter input{
+	position: absolute;bottom: 3rem;right: 3.5%;
+	width: 16.5%;
+	height: 40px;
+	padding-left: 5px;
+	background: rgba(0,0,0, .10);
+	border: 2px solid #588C43;
+	color: #FFF;
+	font-family: 'Open sans';
+	font-weight: 100;
+}footer .container-footer-principal .newsletter input:focus{
+	background: rgba(0,0,0, .10);
+	border: 2px solid #588C43;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	outline: 0;
+}
+footer .container-footer-principal .newsletter button{
+	z-index: 994;
+	width: 16.5%;
+	height: 30px;
+	position: absolute;
+	display: block;
+	color: #FFF;
+	border: 2px solid #578D3B;
+	background: none;
+	position: absolute;
+	right: 3.8%;
+	bottom: .6rem;
+}
+footer .container-footer-principal .newsletter button:hover{
+	background: #578D3B;
+	transition: .5s ease;
+	cursor: pointer;
+	border: 2px solid #578D3B;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.24);
+}
+footer .footer-secundario{
+	position: absolute;bottom: -114%;
+	background: #588C43;
+	width: 100%;
+	height: 3vw;
+	z-index: 994;
+}footer .footer-secundario p{
+	font-size: .8em;
+	font-family: 'Open sans';
+	text-align: center;
+	color: #FFF;
+	font-weight: 300;
+	margin: .7% 0;
+	display: block;
+}
+@media screen and (max-width: 1200px){
+	nav .nav-bar{
+		height: 28vw;
+		padding: 1.5% 0;
+	}
+		header .logo-nubanco > h2{
+		padding: 16px 0;
+	}
+	.banner .container-cda .banner-cda img{
+		width: 100%;
+		filter: brightness(60%);
+		position: absolute;
+		top: 5%;
+		z-index: 7;
+	}
+	.banner .container-cda .banner-cda h2{
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		font-family: 'open Sans';
+		font-weight: 800;
+		font-size: 2em;
+		display: flex;
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+		top: 10%;
+		color: #5F5F5F;
+		z-index: 996;
+}
+	.banner .container-cda .banner-cda p{
+		width: 85%;
+		margin: 0 auto;
+		text-align: center;
+		max-width: 85%;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		z-index: 470;
+		display: none;
+		color: #FFF;
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	} .banner .container-cda .banner-cda .mobile{display: block; top: 24%;}
+	.banner .banner-cda{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.banner .container-cda .banner-cda button{
+		text-align: center;
+		z-index: 994;
+		width: 120px;
+		height: 40px;
+		position: absolute;
+		display: block;
+		color: #FFF;
+		top: 33%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border: 2px solid #6FB54B;
+		background: none;
+		margin: 0 auto;
+	}
+	.banner .container-cda img{
+		width: 100%;
+		top: 0%;
+		position: absolute;
+		z-index: 2;
+	}
+	.servicos-section{
+		margin: 0 auto;
+		text-align: center; 
+		position: absolute;
+		z-index: 778;
+		max-width: 100%;
+		top: 45%;
+	}
+	.servicos-section .servicos{
+		font-family: 'Open Sans';
+		font-weight: 400;
+		font-size: 2em;
+		width: 100%;
+	}
+
+	/* Consultoria */
+	.servicos-section .container-servicos .consultoria i{
+		margin-top: 5%;
+		font-size: 5em;
+		color: #578D3B;
+	}
+	.servicos-section .container-servicos .consultoria h2{
+		font-size: 2em;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		color: #333;
+	}
+	.servicos-section .container-servicos .consultoria p{
+		width: 50%;
+		font-size: 1em;
+		font-family: 'Open Sans';
+		font-weight: 200;
+		color: #333;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	/*///////////////*/
+
+	/*/// suporte ///*/
+	.servicos-section .container-servicos .suporte i{
+		margin-top: 25%;
+		font-size: 5em;
+		color: #578D3B;
+	}
+	.servicos-section .container-servicos .suporte h2{
+		font-size: 2em;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		color: #333;
+	}
+	.servicos-section .container-servicos .suporte p{
+		width: 50%;
+		font-size: 1em;
+		font-family: 'Open Sans';
+		font-weight: 200;
+		color: #333;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	/*///////////////*/
+
+	/* Noticias */
+	.servicos-section .container-servicos .noticias i{
+		margin-top: 25%;
+		font-size: 5em;
+		color: #578D3B;
+	}
+	.servicos-section .container-servicos .noticias h2{
+		font-size: 2em;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		color: #333;
+	}
+	.servicos-section .container-servicos .noticias p{
+		width: 50%;
+		font-size: 1em;
+		font-family: 'Open Sans';
+		font-weight: 200;
+		color: #333;
+		position: relative;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	/*///////////////*/
+	footer{margin: 0 auto; max-width: 100%;}
+	footer .container-footer-principal{
+		z-index: 887;
+		position: absolute;
+		bottom: -110%;
+		left: 0;
+		background: #6FB54B;
+		width: 100%;
+		height: 50vh;
+	}
+	footer .container-footer-principal h2{
+		font-family: 'Open sans';
+		font-size: 1.5em;
+		font-weight: 400;
+		color: #333;
+	}
+	footer .container-footer-principal .enderecos h2{
+		text-align: center;
+		margin-top: 5%;
+		display: block;
+	}
+	footer .container-footer-principal .enderecos p{
+		text-align: center;
+		font-family: 'Open sans';
+		font-weight: 200;
+		font-size: 1em;
+		color: #333;
+		display: block;
+	}
+	footer .container-footer-principal .web-enderecos h2{
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+	}
+	footer .container-footer-principal .web-enderecos p{
+		text-align: center;
+		font-family: 'Open sans';
+		font-weight: 200;
+		font-size: 1em;
+		color: #333;
+		display: block;
+	}
+	footer .container-footer-principal .newsletter h2{
+		margin: 3.5% 0 0 0;
+		font-size: 1.7em;
+		text-align: center;
+	}
+	footer .container-footer-principal .newsletter input{
+		width: 33%;
+		height: 40px;
+		padding-left: 5px;
+		background: rgba(0,0,0, .10);
+		border: 2px solid #588C43;
+		color: #FFF;
+		font-family: 'Open sans';
+		font-weight: 200;
+		right: 0;
+		left: 0;
+		top: 63%;
+		margin: 0 auto;
+	}footer .container-footer-principal .newsletter input:focus{
+		background: rgba(0,0,0, .10);
+		border: 2px solid #588C43;
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+		outline: 0;
+	}
+	footer .container-footer-principal .newsletter button{
+		z-index: 994;
+		width: 34%;
+		height: 30px;
+		position: absolute;
+		display: block;
+		margin: 0 auto;
+		color: #FFF;
+		border: 2px solid #578D3B;
+		background: none;
+		top: 77%;
+		left: 0;right: 0;
+		}
+	footer .container-footer-principal .newsletter button:hover{
+		background: #578D3B;
+		transition: .5s ease;
+		cursor: pointer;
+		border: 2px solid #578D3B;
+		box-shadow: 2px 2px 4px rgba(0,0,0,.24);
+	}
+	footer .footer-secundario{
+		position: absolute;bottom: -110%;
+		background: #588C43;
+		width: 100%;
+		height: 7vw;
+		z-index: 994;
+	}footer .footer-secundario p{
+		font-size: .8em;
+		font-family: 'Open sans';
+		text-align: center;
+		color: #FFF;
+		font-weight: 300;
+		margin: 2% 0;
+		display: block;
+	}
+}
+.active{animation: NavANIM .5s ease;}
+.notactive{animation: NavN_ANIM .3s ease;}
+@keyframes NavANIM{
+	0%{left: -2%;}
+	100%{left: 0;}
+}
+@keyframes NavN_ANIM{
+	0%{left: -2%;}
+	100%{left: 0;}
+}
+body::-webkit-scrollbar{
+	width: 0px;
+}

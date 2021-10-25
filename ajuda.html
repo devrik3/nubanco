@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<head>
+	<title>NuBanco | Ajuda</title>
+	<link rel="stylesheet" href="css/style-ajuda.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<!-- === Importando Fontes === -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="font/all.css">
+	<!-- ========================= -->
+</head>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="logo-nubanco">
+			<h2><a href="index.html">LogoMarca</a></h2>
+		</div>
+	</div>
+	<div class="nav-hamburguer">
+		<h2 id="nav-hamb"><i class="fas fa-bars"></i></h2>
+		<h2 id="nav-hamb2" style="display: none;"><i class="fas fa-bars"></i></h2>
+	</div>
+			
+		<nav>
+			<div class="nav-bar" id="nav">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="sobre.html">Sobre</a>
+					</li>
+					<li>
+						<a href="ajuda.html">Ajuda</a>
+					</li>
+					<li>
+						<a href="quero-cartao.html">Quero Cartão</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+		<h2 class="ajuda-h2">Ajuda</h2>
+	<section>
+		<div class="container-ajuda">
+			<form method="POST" action="" id="form">
+				<input type="text" id="nome" placeholder="Nome Sobrenome">
+				<input type="email" id="email" placeholder="user@email.com">
+				<textarea placeholder="Descreva a sua duvida..." id="duvida"></textarea>
+				<button type="submit" class="enviar">Enviar</button>
+			</form>
+		</div>
+	</section>
+	<div class="r_server">
+		<p class="accept" id="acepted"></p>
+		<p class="error" id="error"></p>
+	</div>
+		<!-- === Importando Scripts Java Script === -->
+			<script src="js/nav-bar.js"></script>
+			<script src="js/ajuda.js"></script>
+		<!-- ====================================== -->
+</body>
+</html>
