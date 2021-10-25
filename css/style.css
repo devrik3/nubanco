@@ -79,22 +79,22 @@ nav .nav-bar ul li:hover{font-weight: 600;cursor: pointer;}
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 14%;
+	top: 15%;
 	color: #FFF;
 	z-index: 996;
 }
 .banner .container-cda .banner-cda p{
-	width: 75%;
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
-	max-width: 75%;
+	max-width: 50%;
 	font-family: 'Open Sans';
 	font-weight: 300;
 	z-index: 470;
 	display: block;
 	color: #FFF;
 	position: absolute;
-	top: 35%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }.banner .container-cda .banner-cda .mobile{display: none;}
@@ -111,12 +111,12 @@ nav .nav-bar ul li:hover{font-weight: 600;cursor: pointer;}
 .banner .container-cda .banner-cda button{
 	text-align: center;
 	z-index: 994;
-	width: 160px;
-	height: 45px;
+	width: 150px;
+	height: 50px;
 	position: absolute;
 	display: block;
 	color: #FFF;
-	top: 60%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: 2px solid #6FB54B;
@@ -363,12 +363,12 @@ footer .footer-secundario{
 	.banner .container-cda .banner-cda button{
 		text-align: center;
 		z-index: 994;
-		width: 120px;
-		height: 40px;
+		width: 130px;
+		height: 35px;
 		position: absolute;
 		display: block;
 		color: #FFF;
-		top: 33%;
+		top: 30%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		border: 2px solid #6FB54B;
