@@ -2,7 +2,7 @@
   
  ## 👋 Hi, I’m @dev.rik3<br>
  :computer: I'm Front-End Developer.<br>
- :house_with_garden: I'm Fom Brazil.<br>
+ :house_with_garden: I'm From Brazil.<br>
  :books: I’m currently learning everything.<br>
   <hr><br>
   
