@@ -337,15 +337,15 @@ footer .footer-secundario{
 		position: absolute;
 		align-items: center;
 		justify-content: center;
-		top: 10%;
+		top: 9%;
 		color: #5F5F5F;
 		z-index: 996;
 }
 	.banner .container-cda .banner-cda p{
-		width: 85%;
+		width: 90%;
 		margin: 0 auto;
 		text-align: center;
-		max-width: 85%;
+		max-width: 90%;
 		font-family: 'Open Sans';
 		font-weight: 300;
 		z-index: 470;
@@ -355,7 +355,7 @@ footer .footer-secundario{
 		top: 30%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-	} .banner .container-cda .banner-cda .mobile{display: block; top: 24%;}
+	} .banner .container-cda .banner-cda .mobile{display: block; top: 20%; font-size: .8em;}
 	.banner .banner-cda{
 		width: 100%;
 		margin: 0 auto;
